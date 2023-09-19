@@ -70,7 +70,7 @@ def modify_matrix(matrix, operation='invert'):
         raise ValueError(f"Unsupported operation: {operation}")
 
 # Test the function
-num = 2
+num = 361
 matrix = number_to_pixel_matrix(num)
 print(matrix)
 view_matrix(matrix)
