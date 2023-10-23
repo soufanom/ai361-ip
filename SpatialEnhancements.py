@@ -80,3 +80,7 @@ view_matrix(original_image, stretched_image)
 
 averaged_image = apply_averaging_filter(original_image)
 view_matrix(original_image, averaged_image)
+
+
+# previous code: filter_freq_resized = np.zeros_like(img_freq)
+# previous code: filter_freq_resized[:3, :3] = filter_freq
