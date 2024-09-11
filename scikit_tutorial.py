@@ -26,7 +26,6 @@ plt.show()
 # You can manipulate individual color channels (Red, Green, Blue) by accessing the respective channel using NumPy slicing.
 # Set the red channel to zero (removes red from the image)
 image[:, :, 0] = 0
-image[:, :, 1] = 0
 
 # Display the image with modified channels
 plt.imshow(image)
