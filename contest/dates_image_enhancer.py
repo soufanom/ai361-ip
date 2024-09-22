@@ -137,7 +137,7 @@ def process_images(input_folder, output_folder, resize_width=500, jpeg_quality=9
         blended_image = blend_with_original(image, color_overlay)  # Blend with the original image
 
         # Create output path
-        output_path = os.path.join(output_folder, f"enhanced_{filename}")
+        output_path = os.path.join(output_folder, f"{filename}")
 
         # Save with compression for JPEG images
         if filename.endswith(".jpg") or filename.endswith(".jpeg"):
